@@ -5,7 +5,7 @@ public with sharing class AccountService {
             SELECT Id, Name, Industry
             FROM Account
             ORDER BY Name
-            LIMIT 10
+            LIMIT 100
         ];
     }
 
